@@ -11,7 +11,7 @@
 
 ## Download TW Blue to your PC
 
-### Last release: 0.91
+### Last release: 0.92
 
 You can always download the last version of TW Blue by pressing on the following link. When new versions are available, the application will notify you as soon as you run it, and you will be able to automatically download and install this update. Do not forget that you can always check for updates from the help menu as well.
 
@@ -30,3 +30,12 @@ Released on July 19, 2017.
 #### TWBlue in portable Apps format
 
 [Download TW Blue 0.92 for portable apps](http://twblue.es/pubs/TWBluePortable_0.92.paf.exe)
+
+### TWBlue snapshot
+
+* Built directly from our source code repository.
+* Includes the latest features and bugfixes added in TWBlue.
+* It may include bugs waiting to be found, reported and fixed.
+* Some translations and documentation may not be up to date.
+
+[Download TWBlue snapshot](https://twblue.es/pubs/snapshot.zip)
