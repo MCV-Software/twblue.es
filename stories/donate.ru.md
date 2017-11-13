@@ -15,7 +15,9 @@
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="3EMAWJVBEDV7W">
-<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Внести пожертвование используя Paypal, самый безопасный и быстрый способ оплаты online.">
+<input type="hidden" name="hosted_button_id" value="DAJ6H33RCVM62">
+<input type="hidden" name="LC" value="RU">
+<input type="hidden" name="country" value="RU"> 
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
 </form>
