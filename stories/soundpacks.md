@@ -25,21 +25,22 @@ Note: If you own any of the sounds used in these packs and would like them remov
 
 Name | creator | version of TWBlue supported
   ----------------------------------------------------------------------------------------------------------| ---------------------------------------------------- | -----------------------------
-[Default](http://twblue.es/extra-contents/soundpacks/default.zip) | [The TWBlue Team](https://twitter.com/tw_blue2) | 0.86
-[Punch Out](http://twblue.es/extra-contents/soundpacks/punch-out.zip) | [Duyahn Walker](https://twitter.com/themusicman08) | 0.86
-[The Legend of Zelda](http://twblue.es/extra-contents/soundpacks/the-legend-of-zelda.zip) | [Duyahn Walker](https://twitter.com/themusicman08) | 0.86
-[Celu Blue](http://twblue.es/extra-contents/soundpacks/celu-blue.zip) | [Marcelo Sosa](https://twitter.com/marcedsosa) | 0.86
-[iOs](http://twblue.es/extra-contents/soundpacks/ios.zip) | [David Martínez](https://twitter.com/JMundstok) | 0.86
-[Playroom](http://twblue.es/extra-contents/soundpacks/playroom.zip) | [David Martínez](https://twitter.com/JMundstok) | 0.86
-[Windows](http://twblue.es/extra-contents/soundpacks/windows.zip) | [David Martínez](https://twitter.com/JMundstok) | 0.86
-[Tw Sounds X](http://twblue.es/extra-contents/soundpacks/tw-sounds-x.zip) | [Javier Orduña](https://twitter.com/xaverius84) | 0.86
-[Sonidos de Cartoon Network](http://twblue.es/extra-contents/soundpacks/sonidos-cartoon-network.zip) | [Andrés Nava](https://twitter.com/andresnava28) | 0.86
-[Sonidos de Samsung](http://twblue.es/extra-contents/soundpacks/sonidos-de-samsung.zip) | [Andrés Nava](https://twitter.com/andresnava28) | 0.86
-[Sonidos de La sala de juegos](http://twblue.es/extra-contents/soundpacks/sonidos-la-sala-de-juegos.zip) | [Andrés Nava](https://twitter.com/andresnava28)  | 0.86
-[Erithro](http://twblue.es/extra-contents/soundpacks/erithro.zip) | [David Martínez](https://twitter.com/DavithZahot) | 0.86
-[Comical](http://twblue.es/extra-contents/soundpacks/comical.zip) |  [David Martínez](https://twitter.com/DavithZahot) | 0.86
-[Mario Bross](http://twblue.es/extra-contents/soundpacks/mario-bross.zip) | [David Martínez](https://twitter.com/DavithZahot) | 0.86
-[Special](http://twblue.es/extra-contents/soundpacks/special.zip) | [David Martínez](https://twitter.com/DavithZahot) | 0.86
+[Default](http://twblue.es/extra-contents/soundpacks/default.zip) | [The TWBlue Team](https://twitter.com/tw_blue2) | 0.93
+[Magical Fountain](http://twblue.es/extra-contents/soundpacks/magical-fountain.zip) | [Valeria K.](https://twitter.com/ValeriaK305) | 0.93
+[Punch Out](http://twblue.es/extra-contents/soundpacks/punch-out.zip) | [Duyahn Walker](https://twitter.com/themusicman08) | 0.93
+[The Legend of Zelda](http://twblue.es/extra-contents/soundpacks/the-legend-of-zelda.zip) | [Duyahn Walker](https://twitter.com/themusicman08) | 0.93
+[Celu Blue](http://twblue.es/extra-contents/soundpacks/celu-blue.zip) | [Marcelo Sosa](https://twitter.com/marcedsosa) | 0.93
+[iOs](http://twblue.es/extra-contents/soundpacks/ios.zip) | [David Martínez](https://twitter.com/JMundstok) | 0.93
+[Playroom](http://twblue.es/extra-contents/soundpacks/playroom.zip) | [David Martínez](https://twitter.com/JMundstok) | 0.93
+[Windows](http://twblue.es/extra-contents/soundpacks/windows.zip) | [David Martínez](https://twitter.com/JMundstok) | 0.93
+[Tw Sounds X](http://twblue.es/extra-contents/soundpacks/tw-sounds-x.zip) | [Javier Orduña](https://twitter.com/xaverius84) | 0.93
+[Sonidos de Cartoon Network](http://twblue.es/extra-contents/soundpacks/sonidos-cartoon-network.zip) | [Andrés Nava](https://twitter.com/andresnava28) | 0.93
+[Sonidos de Samsung](http://twblue.es/extra-contents/soundpacks/sonidos-de-samsung.zip) | [Andrés Nava](https://twitter.com/andresnava28) | 0.93
+[Sonidos de La sala de juegos](http://twblue.es/extra-contents/soundpacks/sonidos-la-sala-de-juegos.zip) | [Andrés Nava](https://twitter.com/andresnava28)  | 0.93
+[Erithro](http://twblue.es/extra-contents/soundpacks/erithro.zip) | [David Martínez](https://twitter.com/DavithZahot) | 0.93
+[Comical](http://twblue.es/extra-contents/soundpacks/comical.zip) |  [David Martínez](https://twitter.com/DavithZahot) | 0.93
+[Mario Bross](http://twblue.es/extra-contents/soundpacks/mario-bross.zip) | [David Martínez](https://twitter.com/DavithZahot) | 0.93
+[Special](http://twblue.es/extra-contents/soundpacks/special.zip) | [David Martínez](https://twitter.com/DavithZahot) | 0.93
 
 Submitting a Soundpack
 ----------------------
