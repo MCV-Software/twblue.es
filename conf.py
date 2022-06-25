@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Manuel Cortez"  # (translatable)
 BLOG_TITLE = "TWBlue"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://twblue.es"
+SITE_URL = "https://twblue.es/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 #BASE_URL = "https://twblue.es"
@@ -93,6 +93,7 @@ TRANSLATIONS = {
     DEFAULT_LANG: "",
     "es": "./es",
     "fr": "./fr",
+    "pl": "./pl",
     "ru": "./ru",
 }
 
@@ -138,7 +139,7 @@ NAVIGATION_LINKS = {
         ("/downloads", "Downloads"),
         ("/documentation", "Documentation"),
         ("/soundpacks", "Soundpacks"),
-        ("https://github.com/manuelcortez/twblue/issues", "Issues"),
+        ("https://github.com/mcv-software/twblue/issues", "Issues"),
 #        ("/faq", "Frequently Asked Questions"),
         ("/team", "Our team"),
     ),
@@ -149,7 +150,7 @@ NAVIGATION_LINKS = {
         ("/es/downloads", "Descargas"),
         ("/es/documentation", "Documentación"),
         ("/es/soundpacks", "Paquetes de sonido"),
-        ("https://github.com/manuelcortez/twblue/issues", "Errores reportados"),
+        ("https://github.com/mcv-software/twblue/issues", "Errores reportados"),
 #        ("/es/faq", "Preguntas frecuentes"),
         ("/es/team", "Equipo"),
     ),
@@ -160,7 +161,7 @@ NAVIGATION_LINKS = {
         ("/ru/downloads", "скачать"),
         ("/ru/documentation", "документация"),
         ("/ru/soundpacks", "звуковые пакеты"),
-        ("https://github.com/manuelcortez/twblue/issues", "задать вопрос разработчику"),
+        ("https://github.com/mcv-software/twblue/issues", "задать вопрос разработчику"),
 #        ("/ru/faq", "часто задаваемые вопросы"),
 #        ("/ru/team", "наша команда"),
     ),
@@ -171,14 +172,14 @@ NAVIGATION_LINKS = {
         ("/downloads.html", "Downloads"),
         ("/documentation.html", "Documentation"),
         ("/soundpacks.html", "Soundpacks"),
-        ("https://github.com/manuelcortez/twblue/issues", "Issues"),
+        ("https://github.com/mcv-software/twblue/issues", "Issues"),
         ("/faq.html", "Frequently Asked Questions"),
         ("/team.html", "Our team"),
     ),
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+THEME = "bootlog4"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
