@@ -1,0 +1,37 @@
+<!--
+.. title: Changes in TWBlue releases
+.. slug: changes-in-twblue-releases
+.. date: 2021-10-28 09:26:48 UTC-05:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+-->
+
+Note: I had planned to post this article today, although the changes described here were applied in a completely different way due to an issue we had with our twitter API keys at the project, hence everyone was forced to update to the latest version of TWBlue. However, I still am posting this here so you can have more information about why we are going to release a single version.
+
+Today, after many years of development and a couple of years without having posted here, we are pleased to announce a couple of changes that hopefully will positively affect the way you enjoy TWBlue, and more important, the frequency in which we can update the software, add new features and fix issues from past versions.
+
+### Some context
+
+Before the announcement, it's important to talk a little bit about some terms we were using for the past years here at TWBlue. If you don't know, some years ago, we started to release two different versions of the same application. At that time, we named those versions "stable" and "snapshot". The idea behind this reasoning was that we wanted to give the choice to our users, whether they wanted to use a well tested, fully translated and documented version, which was the stable version; or the last up to date code arriving to our repository, with the newest features, bugfixes and testing parts we were introducing before the next stable. We called that version the Snapshot. So, people who would want the stable version were a little bit out of date with all features we were adding, but the version was more mature and tested; meanwhile snapshot users were prone to more bugs and reduced performance, but normally they were having access to newer features. At the end, we were using the snapshot version to test the next stable, and our users were fully participating in that process.
+
+However, after 2019, We had a hard time here in the project. Firstly, there were a lot of changes we needed to perform if we wanted TWBlue to keep using up to date technology. We needed to migrate to one of the Pytohn 3 versions, as Python 2 was discontinued a while ago; We needed to replace the module we use to communicate with Twitter -as Twython, the module we were using before, looks to be abandoned, and in the meantime we dropped support for Windows XP and replaced our audio playback engine completely. At the same time, we received less contributions from the community in our repository, as all people contributing to the project are doing so during their free time and normally they have pretty busy days.
+
+The More work we had to do, less people working in the project and life situations making us being generally unable to be working in the project as we'd like, had a few consequences. The first and most important was that we were unable to release neither snapshot or stable versions in a long time due to the magnitude of changes we were performing, thus many people thought that the project was abandoned, despite being generally active in the source code repositories. Once we had something to release as a new snapshot, the differences against the current stable version were too significant that we knew since the first snapshot released built with Python 3, that we would be unable to release a new stable version as an update to the existing version because everything would break. To make it easy, both Python 2 version (0.95 or the stable released in 2019) and all newer snapshots (Python 3 versions) cannot be mixed, therefore autoupdating the stable version would not be possible. Also, new snapshot versions introduced many things that made us to be unable to update the current stable, such as a new cache database, which would break the stable one, changes in configuration for proxies which are also not compatible with the config values from stables, and some other changes that might break the stable features offered due to the difference between Python versions.
+
+Another consequence about our (considerably weird) releasing schedule was that very often, people tend to think about snapshot versions as unstable or dangerous-buggy code. A couple of weeks ago, I started recommending people to use the latest snapshot version as opposed to the current stable, because we were basically 2 years ahead on development, features and fixes than in 2019, but I received many questions about the stability of the current snapshots. That's why  I thought we needed to do something about this problem.
+Since nowadays the snapshot versions are way more stable than the installer, portable or other bundles we distributed in 2019 as the "current stable version". I thought we no longer should call TWBlue releases as "snapshots", as those are much more stable, performant and generally bug free than what we considered stable version in 2019.
+
+### What is changing?
+
+Lately, I have been quite busy with many other duties in life and work. Among those, I am setting up a single person software company to make me being able to access more opportunities in Mexico, the country where I live. Probably, if you use TWBlue, you will notice a name change in the about section within the application. Though that's going to be a minor change, because everything else is going to be the same. About the TWBlue's release versions, we are going to make it much easier for everyone by releasing only a single version, which will be updated regularly to add new features, bugfixes and translations. We will no longer keep separate versions based in how stable the code is, because we consider that with the current codebase, TWBlue is stable enough to keep a single, unified version and get this version up to date with the latest Twitter features.
+
+We also will change our versioning system to the calendar version release. This means that instead of being releasing software based in major.minor version, as we were doing before, we will start to release TWBlue versions based in the date the release was finished. So, very soon you will see TWBlue Version 2021.10.26, for example, which should make it easier for people to identify when exactly the version was built.
+
+### Conclusion
+
+With those changes, we hope there will be more time for us to code, test and pack features into the software instead of worrying about when we should freeze a specific version and when we should release more snapshots. Also, hopefully this will make the project more active among the community and stop giving the impression of abandonment by people using it.
+
+Last but not least, I wanted to take the time to thank you all, users, contributors, translators, sound designers and writers for putting what is in your possibilities to make this project the giant piece of software it is nowadays. When I have started to code this, only in spanish and as a fun project, I never imagined that this project would last for 8 years. And as long as Twitter keeps existing and allowing third party developers to code for their platform, I hope we can see many more years of this project, which, among other things, is translated to more than 19 languages by a group of experienced people, making many more users capable of enjoying a good Twitter experience. As the lead developer of the project, you all encourage me to implement all changes in order to make the software better. Thank you all and let's hope for more years to come.
