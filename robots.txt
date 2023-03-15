@@ -1,0 +1,4 @@
+Sitemap: https://twblue.es/sitemapindex.xml
+
+User-Agent: *
+Host: twblue.es

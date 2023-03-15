@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>documentation | TWBlue</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (es)" hreflang="es" href="../es/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (fr)" hreflang="fr" href="../fr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../pl/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ru)" hreflang="ru" href="../ru/rss.xml">
+<link rel="canonical" href="https://twblue.es/documentation/">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><meta name="author" content="MCV Software">
+<meta property="og:site_name" content="TWBlue">
+<meta property="og:title" content="documentation">
+<meta property="og:url" content="https://twblue.es/documentation/">
+<meta property="og:description" content="Warning!
+You are reading documentation produced for a program still in development. The object of this manual is to explain some details of the operation of the program. Bear in mind that as the softw">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-10-03T04:59:39-05:00">
+<link rel="alternate" hreflang="es" href="../es/documentation/">
+<link rel="alternate" hreflang="ru" href="../ru/documentation/">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Header and menu bar -->
+<div class="container">
+      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
+          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
+                
+            </div>
+        </div>
+          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <a class="navbar-brand blog-header-logo text-dark" href="../">
+
+            <span id="blog-title">TWBlue</span>
+        </a>
+          </div>
+            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
+<li class="nav-item"><a href="../es/" rel="alternate" hreflang="es" class="nav-link">Español</a></li>
+            <li class="nav-item"><a href="../fr/" rel="alternate" hreflang="fr" class="nav-link">Français</a></li>
+            <li class="nav-item"><a href="../pl/" rel="alternate" hreflang="pl" class="nav-link">Polski</a></li>
+            <li class="nav-item"><a href="../ru/" rel="alternate" hreflang="ru" class="nav-link">Русский</a></li>
+
+                    
+                    
+
+                    
+            </ul></nav>
+</div>
+    </div>
+</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item">
+<a href="../index.html" class="nav-link">Home</a>
+                </li>
+<li class="nav-item">
+<a href="../donate" class="nav-link">Make a donation</a>
+                </li>
+<li class="nav-item">
+<a href="../downloads" class="nav-link">Downloads</a>
+                </li>
+<li class="nav-item">
+<a href="../documentation" class="nav-link">Documentation</a>
+                </li>
+<li class="nav-item">
+<a href="../soundpacks" class="nav-link">Soundpacks</a>
+                </li>
+<li class="nav-item">
+<a href="https://github.com/mcv-software/twblue/issues" class="nav-link">Issues</a>
+                </li>
+<li class="nav-item">
+<a href="../team" class="nav-link">Our team</a>
+
+                
+            </li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</nav>
+</div>
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+        
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">documentation</a></h1>
+
+        
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">Also available in:</h3>
+                <p><a href="../es/documentation/" rel="alternate" hreflang="es">Español</a></p>
+                <p><a href="../ru/documentation/" rel="alternate" hreflang="ru">Русский</a></p>
+        </div>
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <h3>Warning!</h3>
+<p>You are reading documentation produced for a program still in development. The object of this manual is to explain some details of the operation of the program. Bear in mind that as the software is in the process of active development, parts of this user guide may change in the near future, so it is advisable to keep checking from time to time to avoid missing important information.</p>
+<p>If you want to see what has changed from the previous version, <a href="changes.html">read the list of updates here.</a></p>
+<h3>Introduction</h3>
+<p>TWBlue is an application to make Twitter simple and fast, while using as few resources as possible. With TWBlue, you can do things like the following:</p>
+<ul>
+<li>Tweet, reply to, retweet and delete tweets,</li>
+<li>Mark and unmark a tweet as favourite,</li>
+<li>Send and delete direct messages,</li>
+<li>See your friends and followers,</li>
+<li>Follow, unfollow, report and block a user,</li>
+<li>Open a user's timeline to see their tweets separately,</li>
+<li>Open URLs from a tweet or direct message,</li>
+<li>Play several types of audio files from addresses,</li>
+<li>And more.</li>
+</ul>
+<h3>Usage</h3>
+<p>Twitter is a social networking or micro-blogging tool which allows you to compose short status updates of your activities in 140 characters or less. Twitter is a way for friends, family and co-workers to communicate and stay connected through the exchange of quick, frequent messages. You can restrict delivery of updates to those in your circle of friends or, by default, allow anyone to access them.</p>
+<p>You can monitor the status of updates from your friends, family or co-workers (known as following), and they in turn can read any updates you create, (known as followers). The updates are referred to as Tweets. The Tweets are posted to your Twitter profile or Blog and are searchable using Twitter Search.</p>
+<p>In order to use TWBlue, you must first have created an account on the Twitter website. The process for signing up for a Twitter account is very accessible. During the account registration, you will need to choose a Twitter username. This serves two purposes. This is the method through which people will comunicate with you, but most importantly, your username and password will be required to connect TWBlue to your Twitter account. We suggest you choose a username which is memorable both to you and the people you hope will follow you.</p>
+<p>We'll start from the premise that you have a Twitter account with its corresponding username and password.</p>
+<h4>Authorising the application</h4>
+<p>First of all, it's necessary to authorise the program so it can access your Twitter account and act on your behalf. The authorisation process is quite simple, and the program never retains data such as your password. In order to authorise the application, you just need to run the main executable file, called TWBlue.exe (on some computers it may appear simply as TWBlue if Windows Explorer is not set to display file extensions). We suggest you may like to place a Windows shortcut on your Desktop pointing to this executable file for quick and easy location.</p>
+<p>You can log into several Twitter accounts simultaneously. The program refers to each Twitter account you have configured as a "Session". If this is the first time you have launched TWBlue, and if no Twitter session exists, you will see the Session Manager. This dialogue box allows you to authorise as many accounts as you wish. If you press the Tab key to reach the "new account" button and activate it by pressing the Space Bar, a dialogue box will advise you that your default internet browser will be opened in order to authorise the application and you will be asked if you would like to continue. Activate the "yes" Button by pressing the letter "Y" so the process may start.</p>
+<p>Your default browser will open on the Twitter page to request authorisation. Enter your username and password into the appropriate edit fields if you're not already logged in, select the authorise button, and press it.</p>
+<p>Once you've authorised your twitter account, the website will redirect you to a page which will notify you that TWBlue has been authorised successfully. Now you are able to close the page by pressing ALT+F4 which will return you to the Session Manager. On the session list, you will see a new item temporarily called "Authorised account x" -where x is a number. The session name will change once you open that session.</p>
+<p>To start running TWBlue, press the Ok button in the Session Manager dialogue. By default, the program starts all the configured sessions automatically, however, you can change this behavior.</p>
+<p>If all went well, the application will start playing sounds, indicating your data is being updated.</p>
+<p>When the process is finished, by default the program will play another sound, and the screen reader will say "ready" (this behaviour can be configured).</p>
+<h3>General concepts</h3>
+<p>Before starting to describe TWBlue's usage, we'll explain some concepts that will be used extensively throughout this manual.</p>
+<h4>Buffer</h4>
+<p>A buffer is a list of items to manage the data which arrives from Twitter, after being processed by the application. When you configure a new session on TWBlue and start it, many buffers are created. Each of them may contain some of the items which this program works with: Tweets, direct messages, users, trends or events. According to the buffer you are focusing, you will be able to do different actions with these items.</p>
+<p>The following is a description for every one of TWBlue's buffers and the kind of items they work with.</p>
+<ul>
+<li>Home: this shows all the tweets on the main timeline. These are the tweets by users you follow.</li>
+<li>Mentions: if a user, whether you follow them or not, mentions you on Twitter, you will find it in this list.</li>
+<li>Direct messages: here you will find the private direct messages you exchange with users who follow you , or with any user, if you allow direct messages from everyone (this setting is configurable from Twitter). This list only shows received messages.</li>
+<li>Sent direct messages: this buffer shows all the direct messages sent from your account.</li>
+<li>Sent tweets: this shows all the tweets sent from your account.</li>
+<li>Favourites: here you will see all the tweets you have favourited.</li>
+<li>Followers: when users follow you, you'll be able to see them on this buffer, with some of their account details.</li>
+<li>Friends: the same as the previous buffer, but these are the users you follow.</li>
+<li>User timelines: these are buffers you may create. They contain only the tweets by a specific user. They're used so you can see the tweets by a single person and you don't want to look all over your timeline. You may create as many as you like.</li>
+<li>Events: An event is anything that happens on Twitter, such as when someone follows you, when someone adds or removes one of your tweets from their favourites list, or when you subscribe to a list. There are many more, but the program shows the most common ones in the events buffer so that you can easily keep track of what is happening on your account.</li>
+<li>Lists: A list is similar to a user timeline, except that you can configure it to contain tweets from multiple users.</li>
+<li>Search: A search buffer contains the results of a search operation.</li>
+<li>User favourites: You can have the program create a buffer containing tweets favourited by a particular user.</li>
+<li>Trending Topics: a trend buffer shows the top ten most used terms in a geographical region. This region may be a country or a city. Trends are updated every five minutes.</li>
+</ul>
+<p>If a tweet contains a URL, you can press enter in the GUI or Control + Windows + Enter in the invisible interface to open it. If it contains audio, you can press Control + Enter or Control + Windows + Alt + Enter to play it, respectively. TWBlue will play a sound if the tweet contains the #audio hashtag, but there may be tweets which contain audio without this. Finally, if a tweet contains geographical information, you can press Control + Windows + G in the invisible interface to retrieve it.</p>
+<h4>Username fields</h4>
+<p>These fields accept a Twitter username (without the at sign) as the input. They are present in the send direct message and the user actions dialogue boxes. Those dialogues will be discussed later. The initial value of these fields depends on where they were opened from. They are prepopulated with the username of the sender of the focused tweet (if they were opened from the home and sent timelines, from users' timelines or from lists), the sender of the focused direct message (if from the received or sent direct message buffers) or in the focused user (if from the followers' or friends' buffer). If one of those dialogue boxes is opened from a tweet, and if there are more users mentioned in it, you can use the arrow keys to switch between them. Alternatively, you can also type a username.</p>
+<h3>The program's interfaces</h3>
+<h4>The graphical user interface (GUI)</h4>
+<p>The graphical user interface of TWBlue consists of a window containing:</p>
+<ul>
+<li>a menu bar accomodating five menus (application, tweet, user, buffer and help);</li>
+<li>One tree view,</li>
+<li>One list of items</li>
+<li>Four buttons in most dialogs: Tweet, retweet , reply and direct message.</li>
+</ul>
+<p>The actions that are available for every item will be described later.</p>
+<p>In summary, the GUI contains two core components. These are the controls you will find while pressing the Tab key within the program's interface, and the different elements present on the menu bar.</p>
+<h5>Buttons in the application</h5>
+<ul>
+<li>Tweet: this button opens up a dialogue box to write your tweet. The message must not exceed 140 characters. If you write past this limit, a sound will play to warn you. Note that the character count is displayed in the title bar. You may use the shorten and expand URL buttons to comply with the character limit. You can upload a picture, check spelling, attach audio or translate your message by selecting one of the available buttons in the dialogue box. In addition, you can autocomplete the entering of users by pressing Alt + A or the button for that purpose if you have the database of users configured. Press enter to send the tweet. If all goes well, you'll hear a sound confirming it. Otherwise, the screen reader will speak an error message in English describing the problem.</li>
+<li>Retweet: this button retweets the message you're reading. After you press it, if you haven't configured the application not to do so, you'll be asked if you want to add a comment or simply send it as written. If you choose to add a comment, and if the original tweet plus the comment exceeds 140 characters, you will be asked if you want to post it as a comment with a mention to the original user and a link to the originating tweet.</li>
+<li>Reply: when you're viewing a tweet, you can reply to the user who sent it by pressing this button. A dialogue will open up similar to the one for tweeting, but with the name of the user already filled in (for example @user) so you only need to write your message. If there are more users referred to in the tweet, you can press shift-tab and activate the mention all users button. When you're on the friends or followers lists, the button will be called mention instead.</li>
+<li>Direct message: exactly like sending a tweet, but it's a private message which can only be read by the user you send it to. Press shift-tab to see the recipient. If there were other users mentioned in the tweet you were reading, you can arrow up or down to choose which one to send it to, or write the username yourself without the at sign.</li>
+</ul>
+<p>Bear in mind that buttons will appear according to which actions are possible on the list you are browsing. For example, on the home timeline, mentions, sent, favourites and user timelines you will see the four buttons, while on the direct messages list you'll only get the direct message and tweet buttons, and on friends and followers lists the direct message, tweet, and mention buttons will be available.</p>
+<h5>Menus</h5>
+<p>Visually, Towards the top of the main application window, can be found a menu bar which contains many of the same functions as listed in the previous section, together with some additional items. To access the menu bar, press the alt key. You will find five menus listed: application, tweet, user, buffer and help. This section describes the items on each one of them.</p>
+<h6>Application menu</h6>
+<ul>
+<li>Manage accounts: Opens a window with all the sessions configured in TWBlue, where you can add new sessions or delete the ones you've already created.</li>
+<li>Update profile: opens a dialogue where you can update your information on Twitter: name, location, website and bio. If you have already set this up the fields will be prefilled with the existing information. Also, you can upload a photo to your profile.</li>
+<li>Hide window: turns off the Graphical User Interface. Read the section on the invisible interface for further details.</li>
+<li>Search: shows a dialogue box where you can search for tweets or users on Twitter.</li>
+<li>Lists Manager: This dialogue box allows you to manage your Twitter lists. In order to use them, you must first create them. Here, you can view, edit, create, delete or, optionally, open them in buffers similar to user timelines.</li>
+<li>Edit keystrokes: this opens a dialogue where you can see and edit the shortcuts used in the invisible interface.</li>
+<li>Account settings: Opens a dialogue box which lets you customize settings for the current account.</li>
+<li>Global settings: Opens a dialogue which lets you configure settings for the entire application.</li>
+<li>Exit: asks whether you want to exit the program. If the answer is yes, it closes the application. If you do not want to be asked for confirmation before exiting, uncheck the checkbox from the global settings dialogue box.</li>
+</ul>
+<h6>Tweet menu</h6>
+<ul>
+<li>You will first find the items to tweet, reply and retweet, which are equivalent to the buttons with the same name.</li>
+<li>Add to favourites: marks the tweet you're viewing as a favourite.</li>
+<li>Remove from favourites: removes the tweet from your favourites, but not from Twitter.</li>
+<li>Show tweet: opens up a dialogue box where you can read the tweet, direct message, friend or follower which has focus. You can read the text with the arrow keys. It's a similar dialog box as used for composing tweets, without the ability to send the tweet, file attachment and autocompleting capabilities. It does however include a retweets and favourites count. If you are in the followers or the friends list, it will only contain a read-only edit box with the information in the focused item and a close button.</li>
+<li>View address: If the selected tweet has geographical information, TWBlue may display a dialogue box where you can read the tweet address. This address is retrieved by sending the geographical coordinates of the tweet to Google maps.</li>
+<li>View conversation: If you are focusing a tweet with a mention, it opens a buffer where you can view the whole conversation.</li>
+<li>Delete: permanently removes the tweet or direct message which has focus from Twitter and from your lists. Bear in mind that Twitter only allows you to delete tweets you have posted yourself.</li>
+</ul>
+<h6>User menu</h6>
+<ul>
+<li>Actions: Opens a dialogue where you can interact with a user. This dialogue box will be populated with the user who sent the tweet or direct message in focus or the selected user in the friends or followers buffer. You can edit it or leave it as is and choose one of the following actions:</li>
+<li>Follow: Follows a user. This means you'll see his/her tweets on your home timeline, and if he/she also follows you, you'll be able to exchange direct messages. You may also send / receive direct messages from each other if you have configured the option to allow direct messages from anyone.</li>
+<li>Unfollow: Stops following a user, which causes you not being able to see his/her tweets on your main timeline neither exchanging direct messages, unless they have enabled receiving direct messages from anyone.</li>
+<li>Mute: While muting someone, TWBlue won't show you nor his/her tweets on your main timeline; neither will you see that person's mentions. But you both will be able to exchange direct messages. The muted user is not informed of this action.</li>
+<li>Unmute: this option allows TWBlue to display the user's tweets and mentions again.</li>
+<li>Block: Blocks a user. This forces the user to unfollow you .</li>
+<li>Unblock: Stops blocking a user.</li>
+<li>Report as spam: this option sends a message to Twitter suggesting the user is performing prohibited practices on the social network.</li>
+<li>Ignore tweets from this client: Adds the client from which the focused tweet was sent to the ignored clients list.</li>
+<li>View timeline: Lets you open a user's timeline by choosing the user in a dialog box. It is created when you press enter. If you invoke this option relative to a user that has no tweets, the operation will fail. If you try creating an existing timeline the program will warn you and will not create it again.</li>
+<li>Direct message: same action as the button.</li>
+<li>Add to List: In order to see someone's tweets in one or more of your lists, you must add them first. In the dialogue box that opens after selecting the user, you will be asked to select the list you wish to add the user to. Thereafter, the list will contain a new member and their tweets will be displayed there.</li>
+<li>Remove from list: lets you remove a user from a list.</li>
+<li>View lists: Shows the lists created by a specified user.</li>
+<li>Show user profile: opens a dialogue with the profile of the specified user.</li>
+<li>View favourites: Opens a buffer where you can see the tweets which have been favourited by a particular user.</li>
+</ul>
+<h6>Buffer menu</h6>
+<ul>
+<li>New trending topics buffer: This opens a buffer to get the worlwide trending topics or those of a country or a city. You'll be able to select from a dialogue box if you wish to retrieve countries' trends, cities' trends or worldwide trends (this option is in the cities' list) and choose one from the selected list. The trending topics buffer will be created once the "OK" button has been activated within the dialogue box. Remember this kind of buffer will be updated every five minutes.</li>
+<li>Load previous items: This allows more items to be loaded for the specified buffer.</li>
+<li>Mute: Mutes notifications of a particular buffer so you will not hear when new tweets arrive.</li>
+<li>autoread: When enabled, the screen reader or SAPI 5 Text to Speech voice (if enabled) will read the text of incoming tweets. Please note that this could get rather chatty if there are a lot of incoming tweets.</li>
+<li>Clear buffer: Deletes all items from the buffer.</li>
+<li>Destroy: dismisses the list you're on.</li>
+</ul>
+<h6>Help menu</h6>
+<ul>
+<li>Documentation: opens up this file, where you can read some useful program concepts.</li>
+<li>Sounds tutorial: Opens a dialog box where you can familiarize yourself with the different sounds of the program.</li>
+<li>What's new in this version?: opens up a document with the list of changes from the current version to the earliest.</li>
+<li>Check for updates: every time you open the program it automatically checks for new versions. If an update is available, it will ask you if you want to download the update. If you accept, the updating process will commence. When complete, TWBlue will be restarted. This item checks for new updates without having to restart the application.</li>
+<li>Report an error: opens up a dialogue box to report a bug by completing a small number of fields. Pressing enter will send the report. If the operation doesn't succeed the program will display a warning.</li>
+<li>TWBlue's website: visit our <a href="http://twblue.es">home page</a> where you can find all relevant information and downloads for TWBlue and become a part of the community.</li>
+<li>About TWBlue: shows the credits of the program.</li>
+</ul>
+<h4>The invisible user interface</h4>
+<p>The invisible interface, as its name suggests, has no graphical window and works directly with screen readers such as JAWS for Windows, NVDA and System Access. This interface is disabled by default, but you can enable it by pressing Control + M. It works similarly to TheQube and Chicken Nugget. Its shortcuts are similar to those found in these two clients. In addition, the program has builtin support for the keymaps for these applications, configurable through the global settings dialogue. By default, you cannot use this interface's shortcuts in the GUI, but you can configure this in the global settings dialogue.</p>
+<p>The next section contains a list of keyboard shortcuts for both interfaces. Bear in mind that we will only describe the default keymap.</p>
+<h3>Keyboard shortcuts</h3>
+<h4>Shortcuts of the graphical user interface (GUI)</h4>
+<ul>
+<li>Enter: Open URL.</li>
+<li>Control + Enter: Play audio.</li>
+<li>Control + M: Hide the GUI.</li>
+<li>Control + N: Compose a new tweet.</li>
+<li>Control + R: Reply / mention.</li>
+<li>Control + Shift + R: Retweet.</li>
+<li>Control + D: Send a direct message.</li>
+<li>control + F: Add tweet to favourites.</li>
+<li>Control + Shift + F: Remove a tweet from favourites.</li>
+<li>Control + S: Open the user actions dialogue.</li>
+<li>Control + Shift + V: Show tweet.</li>
+<li>Control + Q: Quit this program.</li>
+<li>Control + I: Open user timeline.</li>
+<li>Control + Shift + i: Destroy buffer.</li>
+<li>F5: Increase volume by 5%.</li>
+<li>F6: Decrease volume by 5%.</li>
+<li>Control + P: Edit your profile.</li>
+<li>Control + Delete: Delete a tweet or direct message.</li>
+<li>Control + Shift + Delete: Empty the current buffer.</li>
+</ul>
+<h4>Shortcuts of the invisible interface (default keymap)</h4>
+<ul>
+<li>Control + Windows + Up Arrow: moves to the previous item in the buffer.</li>
+<li>Control + Windows + Down Arrow: moves to the next item in the buffer.</li>
+<li>Control + Windows + Left Arrow: Move to the previous buffer.</li>
+<li>Control + Windows + Right Arrow: Move to the next buffer.</li>
+<li>Control + Windows + Shift + Left: Focus the previous session.</li>
+<li>Control + Windows + Shift + Right: Focus the next session.</li>
+<li>Control + Windows + C: View conversation.</li>
+<li>Control + Windows + Enter: Open URL.</li>
+<li>Control + Windows + ALT + Enter: Play audio.</li>
+<li>Control + Windows + M: Show or hide the GUI.</li>
+<li>Control + Windows + N: New tweet.</li>
+<li>Control + Windows + R: Reply / Mention.</li>
+<li>Control + Windows + Shift + R: Retweet.</li>
+<li>Control + Windows + D: Send direct message.</li>
+<li>Windows+ Alt + F: Like a tweet.</li>
+<li>Alt + Windows + Shift + F: Remove from likes.</li>
+<li>Control + Windows + S: Open the user actions dialogue.</li>
+<li>Control + Windows + Alt + N: See user details.</li>
+<li>Control + Windows + V: Show tweet.</li>
+<li>Control + Windows + F4: Quit TWBlue.</li>
+<li>Control + Windows + I: Open user timeline.</li>
+<li>Control + Windows + Shift + I: Destroy buffer.</li>
+<li>Control + Windows + Alt + Up: Increase volume by 5%.</li>
+<li>Control + Windows + Alt + Down: Decrease volume by 5%.</li>
+<li>Control + Windows + Home: Jump to the first element of the current buffer.</li>
+<li>Control + Windows + End: Jump to the last element of the current buffer.</li>
+<li>Control + Windows + PageUp: Jump 20 elements up in the current buffer.</li>
+<li>Control + Windows + PageDown: Jump 20 elements down in the current buffer.</li>
+<li>Windows + Alt + P: Edit profile.</li>
+<li>Control + Windows + Delete: Delete a tweet or direct message.</li>
+<li>Control + Windows + Shift + Delete: Empty the current buffer.</li>
+<li>Control + Windows + Space: Repeat last item.</li>
+<li>Control + Windows + Shift + C: Copy to clipboard.</li>
+<li>Control + Windows+ A: Add user to list.</li>
+<li>Control + Windows + Shift + A: Remove user from list.</li>
+<li>Control + Windows + Shift + M: Mute / unmute the current buffer.</li>
+<li>Windows + Alt + M: Mute / unmute the current session.</li>
+<li>Control + Windows + E: Toggle the automatic reading of incoming tweets in the current buffer.</li>
+<li>Control + Windows + -: Search on Twitter.</li>
+<li>Control + Windows + K: Show the keystroke editor.</li>
+<li>Control + Windows + L: Show lists for a specified user.</li>
+<li>Windows + Alt + PageUp: Load previous items for the current buffer.</li>
+<li>Control + Windows + G: Get geolocation.</li>
+<li>Control + Windows + Shift + G: Display the tweet's geolocation in a dialogue.</li>
+<li>Control + Windows + T: Create a trending topics' buffer.</li>
+<li>Control + Windows + {: Find a string in the current buffer.</li>
+</ul>
+<h3>Configuration</h3>
+<p>As described above, this application has two configuration dialogues, the global settings dialogue and the account settings dialogue.</p>
+<h4>The account settings dialogue</h4>
+<h5>General tab</h5>
+<ul>
+<li>Autocompletion settings: Allows you to configure the autocompletion database. You can add users manually or let TWBlue add your followers, friends or both.</li>
+<li>Relative timestamps: Allows you to configure whether the application will calculate the time the tweet or direct message was sent or received based on the current time, or simply say the time it was received or sent.</li>
+<li>API calls: Allows you to adjust the number of API calls to be made to Twitter by this program.</li>
+<li>Items on each API call: Allows you to specify how many items should be retrieved from Twitter for each API call (default and maximum is 200).</li>
+<li>Inverted buffers: Allows you to specify whether the buffers should be inverted, which means that the oldest items will show at the end of them and the newest at the beginning.</li>
+<li>Retweet mode: Allows you to specify the behaviour when posting a retweet: you can choose between retweeting with a comment, retweeting without comment or being asked.</li>
+<li>Number of items per buffer to cache in database: This allows you to specify how many items TWBlue should cache in a database. You can type any number, 0 to cache all items, or leave blank to disable caching entirely.</li>
+</ul>
+<h5>buffers tab</h5>
+<p>This tab displays a list for each buffer you have available in TWBlue, except for searches, timelines, favourites' timelines and lists. You can show, hide and move them.</p>
+<h5>The ignored clients tab</h5>
+<p>In this tab, you can add and remove clients to be ignored by the program.</p>
+<h5>Sound tab</h5>
+<p>In this tab, you can adjust the sound volume, select the input and output device and set the soundpack used by the program.</p>
+<h5>Audio service tab</h5>
+<p>In this tab, you can enter your SndUp API key (if you have one) to upload audio to SndUp with your account. Note that if account credentials are not specified you will upload anonimously.</p>
+<h4>Global settings</h4>
+<p>This dialogue allows you to configure some settings which will affect the entire application.</p>
+<h5 id="general-tab_1">General tab</h5>
+<ul>
+<li>Language: This allows you to change the language of this program. Currently supported languages are arabic, Catalan, German, English, Spanish, Basque, Finnish, French, Galician, Croatian, Hungarian, Italian, Polish, Portuguese, Russian and Turkish.</li>
+<li>Ask before exiting TWBlue: This checkbox allows you to control whetherthe program will ask for confirmation before exiting.</li>
+<li>Play a sound when TWBlue launches: This checkbox allows you to configure whether the application will play a sound when it has finished loading the buffers.</li>
+<li>Speak a message when TWBlue launches: This is the same as the previous option, but this checkbox configures whether the screen reader will say "ready".</li>
+<li>Use the invisible interface's shortcuts in the GUI: As the invisible interface and the Graphical User Interface have their own shortcuts, you may want to use the invisible interface's keystrokes all the time. If this option is checked, the invisible interface's shortcuts will be usable in the GUI.</li>
+<li>Activate SAPI5 when any other screen reader is not being run: This checkbox allows to activate SAPI 5 TTS when no other screen reader is being run.</li>
+<li>Hide GUI on launch: This allows you to configure whether TWBlue will start with the GUI or the invisible interface.</li>
+<li>Keymap: This option allows you to change the keymap used by the program in the invisible interface. The shipped keymaps are Default, Qwitter, Windows 10 and Chicken Nugget. The keymaps are in the "keymaps" folder, and you can create new ones. Just create a new ".keymap" file and change the keystrokes associated with the actions, as it is done in the shipped keymaps.</li>
+</ul>
+<h5>Proxi tab</h5>
+<p>In this tab you can configure TWBlue to use a Proxy server by completing the fields displayed (server, port, user and password).</p>
+<h3>License, source code and donations</h3>
+<p>Tw Blue is free software, licensed under the GNU GPL license, either version 2 or, at your option, any later version. You can view the license in the file named license.txt, or online at <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</a>.</p>
+<p>The source code of the program is available on GitHub at <a href="https://www.github.com/manuelcortez/twblue">https://www.github.com/manuelcortez/twblue</a>.</p>
+<p>If you want to donate to the project, you can do so at <a href="http://twblue.es/?q=node/3&amp;language=en">http://twblue.es/?q=node/3&amp;language=en</a>. Thank you for your support!</p>
+<h3>Contact</h3>
+<p>If you still have questions after reading this document, if you wish to collaborate to the project in some other way, or if you simply want to get in touch with the application developer, follow the Twitter account <a href="https://twitter.com/tw_blue2">@tw_blue2</a> or <a href="https://twitter.com/manuelcortez00">@manuelcortez00.</a> You can also visit <a href="http://twblue.es">our website</a></p>
+<h3>Credits</h3>
+<p>TWBlue is developed and mantained by <a href="https://twitter.com/manuelcortez00">Manuel Cortéz</a> and <a href="https://twitter.com/jmdaweb">José Manuel Delicado</a>. It's supported and sponsored by <a href="https://twitter.com/technow">Technow S. L.</a></p>
+<p>We would also like to thank the translators of TWBlue, who have allowed the spreading of the application.</p>
+<ul>
+<li>English: <a href="https://twitter.com/manuelcortez00">Manuel Cortéz</a>.</li>
+<li>Arabic: <a href="https://twitter.com/mohammed0204">Mohammed Al Shara</a>.</li>
+<li>Catalan: <a href="https://twitter.com/ftgalleg">Francisco Torres</a>
+</li>
+<li>Spanish: <a href="https://twitter.com/manuelcortez00">Manuel Cortéz</a>.</li>
+<li>Basque: <a href="https://twitter.com/sukil2011">Sukil Etxenike</a>.</li>
+<li>Finnish: <a href="https://twitter.com/jani_kinnunen">Jani Kinnunen</a>.</li>
+<li>French: <a href="https://twitter.com/blindhelp38">Rémi Ruiz</a>.</li>
+<li>Galician: <a href="https://twitter.com/Quetzatl_">Juan Buño</a>.</li>
+<li>German: <a href="https://twitter.com/schulle4u">Steffen Schultz</a>.</li>
+<li>Croatian: <a href="https://twitter.com/zvonimirek222">Zvonimir Stanečić</a>.</li>
+<li>Hungarian: Robert Osztolykan.</li>
+<li>Italian: <a href="https://twitter.com/llajta2012">Christian Leo Mameli</a>.</li>
+<li>Japanese: <a href="https://twitter.com/riku_sub001">Riku</a>
+</li>
+<li>Polish: <a href="https://twitter.com/Piciok">Pawel Masarczyk.</a>
+</li>
+<li>Portuguese: Odenilton Júnior Santos.</li>
+<li>Romanian: <a href="https://twitter.com/7ro">Florian Ionașcu</a> and <a href="https://twitter.com/pilgrim89">Răzvan Ciule</a>
+</li>
+<li>Russian: <a href="https://twitter.com/Lifestar_n">Наталья Хедлунд</a>.</li>
+<li>Serbian: <a href="https://twitter.com/sokodtreshnje">Aleksandar Đurić</a>
+</li>
+<li>Turkish: <a href="https://twitter.com/burakyuksek">Burak Yüksek</a>.</li>
+</ul>
+<p>Many thanks also to the people who worked on the documentation. Initially, <a href="https://twitter.com/manuelcortez00">Manuel Cortez</a> did the documentation in Spanish, and translated to English by <a href="https://twitter.com/Bry_StarkCR">Bryner Villalobos</a>, <a href="https://twitter.com/glasscity1837">Robert Spangler</a>, <a href="https://twitter.com/sussanrey17">Sussan Rey</a>, <a href="https://twitter.com/anibalmetal">Anibal Hernandez</a>, and <a href="https://twitter.com/holly1994">Holly Scott-Gardner</a>. It was updated by <a href="https://twitter.com/sukil2011">Sukil Etxenike</a>, with some valuable corrections by <a href="https://twitter.com/brianhartgen">Brian Hartgen</a> and <a href="https://twitter.com/codeofdusk">Bill Dengler</a>.</p>
+<hr>
+<p>Copyright © 2013-2016. Manuel Cortéz</p>
+    </div>
+    
+
+</article><!--End of body content--><footer id="footer">
+            Contents © 2023         <a href="https://mcvsoftware.com">MCV Software</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="../assets/js/all-nocdn.js"></script><!-- Social buttons --><div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul>
+<li>
+<a class="addthis_button_facebook"></a>
+</li>
+<li>
+<a class="addthis_button_google_plusone_share"></a>
+</li>
+<li>
+<a class="addthis_button_linkedin"></a>
+</li>
+<li>
+<a class="addthis_button_twitter"></a>
+</li>
+</ul>
+</div>
+<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script><!-- End of social buttons --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    </script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Running TWBlue from sources | TWBlue</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (es)" hreflang="es" href="../../es/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (fr)" hreflang="fr" href="../../fr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../pl/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ru)" hreflang="ru" href="../../ru/rss.xml">
+<link rel="canonical" href="https://twblue.es/posts/2/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="MCV Software">
+<link rel="prev" href="../1/" title="Welcome to the New TWBlue website" type="text/html">
+<link rel="next" href="../snapshots/" title="Snapshot versions are back!" type="text/html">
+<meta property="og:site_name" content="TWBlue">
+<meta property="og:title" content="Running TWBlue from sources">
+<meta property="og:url" content="https://twblue.es/posts/2/">
+<meta property="og:description" content="Some people in Twitter have  started to use TWBlue from the source code. It means that they are getting the sources as soon as they receive new changes or updates, and running the TWBlue version with ">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-01-04T04:35:11-06:00">
+<link rel="alternate" hreflang="pl" href="../../pl/posts/2/">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Header and menu bar -->
+<div class="container">
+      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
+          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
+                
+            </div>
+        </div>
+          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <a class="navbar-brand blog-header-logo text-dark" href="../../">
+
+            <span id="blog-title">TWBlue</span>
+        </a>
+          </div>
+            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
+<li class="nav-item"><a href="../../es/" rel="alternate" hreflang="es" class="nav-link">Español</a></li>
+            <li class="nav-item"><a href="../../fr/" rel="alternate" hreflang="fr" class="nav-link">Français</a></li>
+            <li class="nav-item"><a href="../../pl/" rel="alternate" hreflang="pl" class="nav-link">Polski</a></li>
+            <li class="nav-item"><a href="../../ru/" rel="alternate" hreflang="ru" class="nav-link">Русский</a></li>
+
+                    
+                    
+
+                    
+            </ul></nav>
+</div>
+    </div>
+</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item">
+<a href="../../index.html" class="nav-link">Home</a>
+                </li>
+<li class="nav-item">
+<a href="../../donate" class="nav-link">Make a donation</a>
+                </li>
+<li class="nav-item">
+<a href="../../downloads" class="nav-link">Downloads</a>
+                </li>
+<li class="nav-item">
+<a href="../../documentation" class="nav-link">Documentation</a>
+                </li>
+<li class="nav-item">
+<a href="../../soundpacks" class="nav-link">Soundpacks</a>
+                </li>
+<li class="nav-item">
+<a href="https://github.com/mcv-software/twblue/issues" class="nav-link">Issues</a>
+                </li>
+<li class="nav-item">
+<a href="../../team" class="nav-link">Our team</a>
+
+                
+            </li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</nav>
+</div>
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Running TWBlue from sources</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    MCV Software
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2017-01-04T04:35:11-06:00" itemprop="datePublished" title="2017-01-04 04:35">2017-01-04 04:35</time></a>
+            </p>
+            
+
+        </div>
+        
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">Also available in:</h3>
+                <p><a href="../../pl/posts/2/" rel="alternate" hreflang="pl">Polski</a></p>
+        </div>
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <p>Some people in Twitter have  started to use TWBlue from the source code. It means that they are getting the sources as soon as they receive new changes or updates, and running the TWBlue version with these changed bits of code. I have been asked to provide the “official” guide for using TWBlue from sources, and even if I don’t recommend this for everyone, here are the “guide”.</p>
+<h3>Why you may want to run TWBlue from sources?</h3>
+<p>TWBlue is free software. Its source code is widely available and you can use the program by running it from sources, as we do every day. Some people started to run the program from its source code because they get code changes as soon as they are uploaded to the repository. That includes every new thing we are adding to the client. They just have to write a command, and they get the updated version of the source code repository. If you are wishing to try the versions of the client before anyone else, you may want to use the client from sources.</p>
+<h3>Getting git for windows</h3>
+<p>We use a tool called git for managing change sets in our repositories. If you want to install everything and get the source code changes, you should <a href="https://git-scm.com/download/win">download and install git for windows from this link.</a> This is a standard windows app, so you would be OK by following the wizard (basically press next several times and finish when it is done). Once installed, you can proceed.</p>
+<h3>Getting the files</h3>
+<p>Open the git CMD application (whether from the start menu or in your desktop) and paste the following commands:</p>
+<blockquote>
+<p>git clone https://github.com/manuelcortez/twblue --dept=1</p>
+</blockquote>
+<p>Note: after the above command it will download some files, so give it some time.</p>
+<blockquote>
+<p>cd TWBlue</p>
+<p>git submodule init</p>
+<p>git submodule update</p>
+</blockquote>
+<h3>Installing dependencies</h3>
+<p>After these commands, there should be a directory called TWBlue in your home folder. If you open it, you will see some other directories and files, open the windows dependencies folder and install the executables located in the x86 folder (for 32 bits windows) or x64 (for 64 bits). If you have a 64 bits system, you can install both 32 and 64 bits versions of all components, but it is not needed, unless you plan to build an executable version of TWBlue. When installing Python, make sure you checked the option for adding python to the path environment variable in Windows, it will make your life much easier. These are the files you must install, the first file will be the Python version, others can be in the order that you prefer:</p>
+<ul>
+<li>python-2.7.13</li>
+<li>wxPython3.0-win32-3.0.2.0-py27</li>
+<li>pywin32-220.win32-py2.7</li>
+<li>pyenchant-1.6.6.win32</li>
+<li>(optional, only needed if you want to build a distributable version of TWBlue) py2exe-0.6.9.win32-py2.7</li>
+</ul>
+<p>Other files can be ignored.</p>
+<h3>Installing other python scripts</h3>
+<p>Open a command line (windows R and write “cmd”) and paste the following command:</p>
+<blockquote>
+<p>easy_install -Z --upgrade six configobj goslate markdown future suds requests oauthlib requests-oauthlib requests-toolbelt pypubsub==3.3.0 pygeocoder arrow==0.6 python-dateutil futures winpaths PySocks win_inet_pton yandex.translate</p>
+</blockquote>
+<p>Once installed, everything is ready for running TWBlue.</p>
+<h3>Running TWBlue from sources</h3>
+<p>Go to the TWBlue folder by opening it in the windows Explorer, open the src directory, and locate the file called main.py. Press the applications key there and select “open with Python”, if it’s not the first option. And everything should be done, TWBlue will be opened from the source code.</p>
+<h3>Getting updates</h3>
+<p>If you follow the TWBlue account in twitter, you should know that I tend to post every update that we send to the official repository. Every time you see these updates, you can apply them to the currently code that you have. You will need git for syncing these changes, so don’t remove it. Here are the steps for updating your version of the source code. Of course if you are using TWBlue from source, you will need to close the program, apply the updates to the source code, and open it again.</p>
+<p>Open git CMD from the start menu or desktop, depending in your particular case.</p>
+<p>Type the following commands:</p>
+<blockquote>
+<p>cd TWBlue</p>
+<p>git pull</p>
+</blockquote>
+<p>You should see a list of updated files, or the message “already up to date” otherwise. And that’s all, you’ve updated the client and you can open it again for seeing the new added changes.</p>
+<h3>Credits</h3>
+<p>I have made this tutorial by following the TWBlue readme instructions and by modifying a tutorial created by <a href="https://twitter.com/AnimalMetal">@AnimalMetal.</a> If you find issues when running TWBlue from sources, you can drop me a mention or direct message in twitter <a href="https://twitter.com/tw_blue2">@tw_blue2</a>) and we’ll try to help.</p>
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../1/" rel="prev" title="Welcome to the New TWBlue website">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../snapshots/" rel="next" title="Snapshot versions are back!">Next post</a>
+            </li>
+        </ul></nav></aside></article><!--End of body content--><footer id="footer">
+            Contents © 2023         <a href="https://mcvsoftware.com">MCV Software</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="../../assets/js/all-nocdn.js"></script><!-- Social buttons --><div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul>
+<li>
+<a class="addthis_button_facebook"></a>
+</li>
+<li>
+<a class="addthis_button_google_plusone_share"></a>
+</li>
+<li>
+<a class="addthis_button_linkedin"></a>
+</li>
+<li>
+<a class="addthis_button_twitter"></a>
+</li>
+</ul>
+</div>
+<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script><!-- End of social buttons --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    </script>
+</body>
+</html>
