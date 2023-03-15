@@ -17,7 +17,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Manuel Cortez"  # (translatable)
+BLOG_AUTHOR = "MCV Software"  # (translatable)
 BLOG_TITLE = "TWBlue"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
@@ -610,11 +610,11 @@ GITHUB_COMMIT_SOURCE = True
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
 # to the location of conf.py
-# OUTPUT_FOLDER = 'output'
+OUTPUT_FOLDER = 'output'
 
 # where the "cache" of partial generated content should be located
 # default: 'cache'
-# CACHE_FOLDER = 'cache'
+CACHE_FOLDER = 'cache'
 
 # Filters to apply to the output.
 # A directory where the keys are either: a file extensions, or
@@ -877,7 +877,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}         <a href="https://mcvsoftware.com">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
