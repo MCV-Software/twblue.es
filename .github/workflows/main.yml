@@ -1,0 +1,9 @@
+- name: Deploy Nikola to GitHub Pages
+  # You may pin to the exact commit or the version.
+  # uses: getnikola/nikola-action@9bbc30f5719c488f8e77c60bae010b090d98094e
+  uses: getnikola/nikola-action@v8
+  with:
+    # Build without publishing code
+    dry_run: # optional
+    # 
+    apt_install: # optional, default is 
