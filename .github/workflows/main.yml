@@ -3,8 +3,6 @@ name: Build site
 on:
   push:
     branches: [ "src" ]
-  pull_request:
-    branches: [ "src" ]
 
 permissions: write-all
 
