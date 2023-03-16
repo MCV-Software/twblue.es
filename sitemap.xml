@@ -7,262 +7,277 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://twblue.es/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/2016/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/2017/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/2018/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/2021/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/archive.html</loc>
-  <lastmod>2023-03-15T23:41:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/categories/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/categories/cat_posts/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/documentation/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/documentation/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="https://twblue.es/ru/documentation/" />
  </url>
  <url>
   <loc>https://twblue.es/donate/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://twblue.es/pl/donate/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/donate/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="https://twblue.es/ru/donate/" />
  </url>
  <url>
   <loc>https://twblue.es/downloads/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://twblue.es/pl/downloads/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/downloads/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="https://twblue.es/ru/downloads/" />
  </url>
  <url>
   <loc>https://twblue.es/es/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/2016/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/2017/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/2021/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/archive.html</loc>
-  <lastmod>2023-03-15T23:41:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/categories/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/categories/cat_posts/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/documentation/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/donate/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/downloads/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/faq/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/posts/1/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://twblue.es/posts/1/" />
   <xhtml:link rel="alternate" hreflang="pl" href="https://twblue.es/pl/posts/1/" />
  </url>
  <url>
   <loc>https://twblue.es/es/posts/changes-in-twblue-releases/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://twblue.es/posts/changes-in-twblue-releases/" />
  </url>
  <url>
   <loc>https://twblue.es/es/posts/snapshots/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://twblue.es/posts/snapshots/" />
   <xhtml:link rel="alternate" hreflang="pl" href="https://twblue.es/pl/posts/snapshots/" />
  </url>
  <url>
   <loc>https://twblue.es/es/privacy_policy/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/soundpacks/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/team/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/es/terms_of_service/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/faq/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://twblue.es/pl/faq/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/faq/" />
  </url>
  <url>
   <loc>https://twblue.es/fr/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/fr/archive.html</loc>
-  <lastmod>2023-03-15T23:41:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/fr/categories/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/2016/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/2017/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/archive.html</loc>
-  <lastmod>2023-03-15T23:41:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/categories/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/categories/cat_posts/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/donate/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/downloads/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/faq/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/posts/1/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/posts/1/" />
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://twblue.es/posts/1/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/posts/1/" />
  </url>
  <url>
   <loc>https://twblue.es/pl/posts/2/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://twblue.es/posts/2/" />
  </url>
  <url>
   <loc>https://twblue.es/pl/posts/snapshots/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/posts/snapshots/" />
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://twblue.es/posts/snapshots/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/posts/snapshots/" />
  </url>
  <url>
   <loc>https://twblue.es/pl/soundpacks/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/pl/team/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/posts/1/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/posts/1/" />
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pl" href="https://twblue.es/pl/posts/1/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/posts/1/" />
  </url>
  <url>
   <loc>https://twblue.es/posts/2/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pl" href="https://twblue.es/pl/posts/2/" />
  </url>
  <url>
   <loc>https://twblue.es/posts/changes-in-twblue-releases/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/posts/changes-in-twblue-releases/" />
  </url>
  <url>
   <loc>https://twblue.es/posts/snapshots/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/posts/snapshots/" />
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pl" href="https://twblue.es/pl/posts/snapshots/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/posts/snapshots/" />
  </url>
  <url>
   <loc>https://twblue.es/posts/unable-to-authenticate/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/ru/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/ru/archive.html</loc>
-  <lastmod>2023-03-15T23:41:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/ru/categories/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/ru/documentation/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/ru/donate/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/ru/downloads/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/ru/soundpacks/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://twblue.es/soundpacks/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://twblue.es/pl/soundpacks/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/soundpacks/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="https://twblue.es/ru/soundpacks/" />
  </url>
  <url>
   <loc>https://twblue.es/team/</loc>
-  <lastmod>2023-03-15T23:38:00Z</lastmod>
+  <lastmod>2023-03-16T05:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://twblue.es/pl/team/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://twblue.es/es/team/" />
  </url>
 </urlset>
